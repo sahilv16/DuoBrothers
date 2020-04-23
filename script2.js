@@ -1,10 +1,9 @@
 
+
+/* Please ❤ this if you like it! */
+
+
 (function ($) {
-    if(screen.width<= 800) {
-        window.location = 'index2.html'
-    }
-
-
     "use strict";
 
     $(function () {
@@ -20,7 +19,7 @@
         });
     });
 
-    // Animation
+    //Animation
 
     $(document).ready(function () {
         $('body.hero-anime').removeClass('hero-anime');
@@ -48,13 +47,6 @@
             $("body").addClass("dark");
             $("#switch").addClass("switched");
         }
-    });
-
-    $('.scroll-down').on('click' , function () {
-        console.log('sahil');
-        
-        $('html, body').animate({ scrollTop: $('#about').offset().top }, 'slow');
-        return false;
     });
 
 })(jQuery); 
