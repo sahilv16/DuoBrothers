@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <script defer src="script2.js"></script>
+                            <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+ 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -18,6 +20,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body class="hero-anime">
         <div class="navigation-wrap bg-light start-header start-style">
             <div class="container">
@@ -71,11 +74,11 @@
                 </div>
             </div>
         </div>
-        <div class="section full-height" style="margin-top: 110%;">
+        <div class="section full-height" style="margin-top: 160%;">
             <div class="absolute-center">
                 <div class="section">
                     <div class="container">
-                        <div class="row" style="display: flex;flex-direction: column-reverse;" >
+                        <div class="row" style="display: flex;flex-direction: row" >
                             <div class="col-12" >
                                 <h1 style="  font-size: 50px !important;
         font-weight: 600 !important ;
@@ -98,19 +101,19 @@
                     <div class="container2" id="about">
                         <div class="row" >
                             <div class="col">
-                                <h1 class='h1' id="duo" style="padding: 30px; font-size: 50px; font-weight: 400;">Why DuoBrothers ?</h1>
+                                <h1 class='h1' id="duo" style="padding: 30px; font-size: 35px; font-weight: 500;">Why DuoBrothers ?</h1>
                                 <ul>
-                                    <li class="list col-12">
+                                    <li class="list col-11">
                                         <img src="https://img.icons8.com/nolan/64/price-tag-euro.png" />
                                         <h3 style="display: inline-block;">Transparent pricing</h3>
                                         <p>See fixed charges</p>
                                     </li>
-                                    <li class="list col-12">
+                                    <li class="list col-11">
                                         <img src="https://img.icons8.com/nolan/64/price-tag-euro.png" />
                                         <h3 style="display: inline-block;">Transparent pricing</h3>
                                         <p>See fixed charges</p>
                                     </li>
-                                    <li class="list col-12">
+                                    <li class="list col-11">
                                         <img src="https://img.icons8.com/nolan/64/price-tag-euro.png" />
                                         <h3 style="display: inline-block;">Transparent pricing</h3>
                                         <p>See fixed charges</p>
@@ -124,5 +127,54 @@
                         </div>
                     </div>
 
+                    <div class="ser" style="text-align: center;">
+                        <h2 style=" font-size: 50px;font-weight: 500;">Services</h2>
+                    </div>
+                    <div class="container3">
+
+                        <div class="row">
+                            <div class="col"><img src="data:image/png;base64,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
+                                AAAASUVORK5CYII=" alt=""><h3>kcknkc</h3></div>
+                            <div class="col"><img src="data:image/png;base64,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" alt=""></div>
+                            <div class="col"><img src="data:image/png;base64,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" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <footer class="page-footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col l6 s12">
+                                        <h5 class="white-text">Footer Content</h5>
+                                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.
+                                        </p>
+                                    </div>
+                                    <div class="col l4 offset-l2 s12">
+                                        <h5 class="white-text">Links</h5>
+                                        <ul>
+                                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-copyright">
+                                <div class="container">
+                                    © 2014 Copyright Text
+                                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+
+
+
+                    <script>
+                        $(window).on("load", function () {
+                                $(".loader-wrapper").fadeOut("slow");
+                            });
+                    </script>
 </body>
 </html>
